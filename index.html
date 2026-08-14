@@ -20,11 +20,10 @@
 
     <header class="hero">
         <div class="hero-content">
-            <h1>Sécurisez vos projets No-Code en un instant</h1>
-            <p>La première plateforme de gouvernance et de sécurité conçue spécifiquement pour les écosystèmes No-Code. Protégez vos données, auditez vos workflows et déployez en toute confiance.</p>
+            <h1>Vos automatisations no-code ne devraient jamais mourir à cause de mauvaises données.</h1>
+            <p>NoCode Guardian surveille vos bases Airtable, détecte les anomalies et les corrige avant qu'elles ne cassent vos workflows.</p>
             <div class="hero-actions">
-                <button class="btn btn-primary">Démarrer l'essai gratuit</button>
-                <button class="btn btn-secondary">Découvrir la plateforme</button>
+                <button class="btn btn-primary">Tester mon Airtable gratuitement</button>
             </div>
         </div>
         <div class="hero-image">
@@ -32,23 +31,67 @@
         </div>
     </header>
 
+    <section class="social-proof">
+        <p>Ils protègent leurs workflows avec NoCode Guardian</p>
+        <div class="logos-grid">
+            <div class="logo-item glass-panel">Agence Alpha</div>
+            <div class="logo-item glass-panel">NoCode Studio</div>
+            <div class="logo-item glass-panel">Automate.io</div>
+            <div class="logo-item glass-panel">Ops Masters</div>
+        </div>
+    </section>
+
+    <section class="problem-solution">
+        <h2>Ne laissez plus une seule erreur paralyser vos opérations</h2>
+        <div class="compare-grid">
+            <div class="compare-card glass-panel danger">
+                <div class="badge-danger">Avant</div>
+                <h3>Make Crash</h3>
+                <div class="log-line">Scenario #482 failed</div>
+                <div class="log-line red">Error: Invalid email format 'jean@gmail'</div>
+                <p>Vos équipes passent 10h/mois à déboguer des workflows à cause de fautes de frappe de vos clients.</p>
+            </div>
+            <div class="compare-card glass-panel success">
+                <div class="badge-success">Avec Guardian</div>
+                <h3>Auto-Fix</h3>
+                <div class="log-line">Airtable Record #92</div>
+                <div class="log-line green">Fixed: 'jean@gmail' ➔ 'jean@gmail.com'</div>
+                <p>L'erreur est interceptée et corrigée silencieusement avant même d'atteindre Make.</p>
+            </div>
+        </div>
+    </section>
+
     <section id="features" class="features">
-        <h2>Pourquoi choisir NoCode Guardian ?</h2>
+        <h2>La première plateforme de No-Code Reliability</h2>
         <div class="features-grid">
             <div class="feature-card glass-panel">
-                <div class="feature-icon">🛡️</div>
-                <h3>Audit Automatique</h3>
-                <p>Détectez les vulnérabilités dans vos workflows Zapier, Make et Bubble avant même leur déploiement en production.</p>
-            </div>
-            <div class="feature-card glass-panel">
-                <div class="feature-icon">👁️</div>
-                <h3>Gouvernance Centralisée</h3>
-                <p>Gérez les accès, les permissions et surveillez l'activité de tous vos outils No-Code depuis un seul tableau de bord.</p>
+                <div class="feature-icon">📊</div>
+                <h3>1. Data Health</h3>
+                <p>Auditez vos bases Airtable. Détectez les doublons, formats invalides et champs vides. Validation ou auto-fix intelligent en un clic.</p>
             </div>
             <div class="feature-card glass-panel">
                 <div class="feature-icon">⚡</div>
-                <h3>Détection Temps Réel</h3>
-                <p>Soyez alerté instantanément en cas de fuite de données ou de configuration non sécurisée sur vos API.</p>
+                <h3>2. Automation Health</h3>
+                <p>Monitorez l'exécution de Zapier et Make. Soyez alerté instantanément dès qu'un workflow échoue ou reste bloqué anormalement.</p>
+            </div>
+            <div class="feature-card glass-panel">
+                <div class="feature-icon">🔗</div>
+                <h3>3. Integration Health</h3>
+                <p>Surveillez la santé de vos API tierces (Notion, HubSpot, etc.). Ne subissez plus les erreurs de synchronisation sans le savoir.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="demo">
+        <h2>Scanner de démonstration</h2>
+        <p>Ayez un aperçu de ce que NoCode Guardian peut trouver en quelques secondes.</p>
+        <div class="scanner-container glass-panel">
+            <div class="scanner-header">
+                <span>Base: <strong>CRM_Clients (Airtable)</strong></span>
+                <button class="btn btn-primary btn-sm" id="btn-scan">Lancer le Scan</button>
+            </div>
+            <div class="scanner-results" id="scanner-results">
+                <div class="placeholder-text">En attente du lancement...</div>
             </div>
         </div>
     </section>
@@ -109,8 +152,90 @@
         </div>
     </section>
 
+    <section class="how-it-works">
+        <h2>Comment ça marche ?</h2>
+        <p class="section-subtitle">5 étapes simples pour une stack no-code fiable à 100%.</p>
+        <div class="steps-grid">
+            <div class="step">
+                <div class="step-number">1</div>
+                <div class="step-icon">🔌</div>
+                <h3>Connecter</h3>
+                <p>Liez votre Airtable en un clic via OAuth. Aucune configuration complexe.</p>
+            </div>
+            <div class="step-arrow">→</div>
+            <div class="step">
+                <div class="step-number">2</div>
+                <div class="step-icon">🔍</div>
+                <h3>Scanner</h3>
+                <p>Notre moteur analyse chaque enregistrement : doublons, formats, champs vides.</p>
+            </div>
+            <div class="step-arrow">→</div>
+            <div class="step">
+                <div class="step-number">3</div>
+                <div class="step-icon">🎯</div>
+                <h3>Détecter</h3>
+                <p>Les anomalies sont classées par sévérité avec un score de qualité global.</p>
+            </div>
+            <div class="step-arrow">→</div>
+            <div class="step">
+                <div class="step-number">4</div>
+                <div class="step-icon">🔧</div>
+                <h3>Corriger</h3>
+                <p>Corrections automatiques ou suggestions intelligentes. Vous gardez le contrôle.</p>
+            </div>
+            <div class="step-arrow">→</div>
+            <div class="step">
+                <div class="step-number">5</div>
+                <div class="step-icon">📡</div>
+                <h3>Surveiller</h3>
+                <p>Monitoring continu. Rapports quotidiens. Alertes en cas de dégradation.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="cta-section">
+        <div class="cta-content glass-panel">
+            <h2>Prêt à protéger vos automatisations ?</h2>
+            <p>Rejoignez la bêta et recevez un audit gratuit de votre base Airtable. Aucune carte bancaire requise.</p>
+            <form class="cta-form" id="beta-form">
+                <input type="email" placeholder="votre@email.com" class="input-email" required>
+                <button type="submit" class="btn btn-primary">Rejoindre la bêta</button>
+            </form>
+            <p class="cta-note">🔒 Vos données restent les vôtres. Désabonnement en un clic.</p>
+        </div>
+    </section>
+
     <footer>
-        <p>&copy; 2026 NoCode Guardian. Tous droits réservés.</p>
+        <div class="footer-grid">
+            <div class="footer-brand">
+                <div class="logo">NoCode Guardian</div>
+                <p>La plateforme de No-Code Reliability. Protégez vos données, vos automatisations et vos intégrations.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Produit</h4>
+                <a href="#features">Fonctionnalités</a>
+                <a href="#pricing">Tarifs</a>
+                <a href="#">Documentation</a>
+                <a href="#">Changelog</a>
+            </div>
+            <div class="footer-links">
+                <h4>Ressources</h4>
+                <a href="#">Blog</a>
+                <a href="#">Guides</a>
+                <a href="#">API Docs</a>
+                <a href="#">Communauté</a>
+            </div>
+            <div class="footer-links">
+                <h4>Entreprise</h4>
+                <a href="#contact">Contact</a>
+                <a href="#">À propos</a>
+                <a href="#">Confidentialité</a>
+                <a href="#">CGU</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 NoCode Guardian. Tous droits réservés.</p>
+        </div>
     </footer>
 
     <script src="script.js"></script>
